@@ -91,7 +91,7 @@ h1 {
 	.service-sec {
 	margin-top:0rem;
 	background-image:url("background.png");
-	background-position:right top;
+	background-position:center;
 	/* height:90vh; */
 }
 	.service-row
@@ -118,7 +118,16 @@ h1 {
     align-items: center;
     
 }
+}
 
-
+@media (min-width:767px) and (max-width:1024px){
+	
+	.col-left {
+    width:40%;
+    
+}
+   .col-right {
+    width:40%;
+}
 
 }
